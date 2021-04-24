@@ -47,7 +47,7 @@ export const CopyToClipboardText = ({ text }) => {
       <Tooltip title={TITLE_BY_STATUS[statusCopy]} placement="top" arrow>
         <Button
           display="flex"
-          alignItems="center"
+          // alignItems="center"
           className={classes.root}
           onClick={onClickCopy}
         >
